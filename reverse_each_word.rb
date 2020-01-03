@@ -9,4 +9,4 @@ def reverse_each_word(sentence1)
     puts "#{sentence1.reverse}"
   end
 end
-reverse_each_word("Hello")
+reverse_each_word(["hello"])
