@@ -9,4 +9,6 @@ def reverse_each_word(sentence)
 end
 
 
+reverse_each_word(sentence1)
+
 puts reverse_each_word(sentence1)
