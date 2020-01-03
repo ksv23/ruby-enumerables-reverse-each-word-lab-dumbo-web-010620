@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
-  split_string = sentence1.split("")
+  split_string = sentence.split("")
   reversed = []
-  sentence1.size.times { reversed << split_string.pop}
+  sentence.size.times { reversed << split_string.pop}
   reversed.join
 
 
