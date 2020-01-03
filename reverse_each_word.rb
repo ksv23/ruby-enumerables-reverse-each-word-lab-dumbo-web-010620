@@ -5,10 +5,7 @@ def reverse_each_word(sentence1)
   # reversed.join
   # reversed
 
-  array = []
-  sentence1.each do |s|
-    array << yield(s)
+  sentence1.each do |sentence1|
+    puts "#{sentence1.reverse}"
 
-  end
-  array
 end
